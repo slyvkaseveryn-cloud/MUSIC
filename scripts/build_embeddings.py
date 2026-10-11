@@ -14,7 +14,10 @@ import pandas as pd
 
 from hooklib import CHUNK_S, EMB_DIR, HOP_S, balanced_subset, l2norm, load_small_metadata, track_path
 
-CLAP_NAME = "laion/larger_clap_music"
+# laion/larger_clap_music у transformers 5.19 вантажиться без помилок, але працює як зламана
+# (zero-shot за жанром на рівні випадкового, logit_scale ~0, precision@5 0.18 проти 0.50 тут),
+# тому беремо сусідній музичний чекпойнт. Перевірено на 400 треках fma_small.
+CLAP_NAME = "laion/larger_clap_music_and_speech"
 CLAP_SR = 48000
 FEAT_SR = 22050
 MIN_DURATION_S = 25.0
@@ -48,6 +51,8 @@ def load_track(track_id: int):
             if len(y) < MIN_DURATION_S * CLAP_SR:
                 return track_id, None, f"закороткий: {len(y) / CLAP_SR:.1f} с"
             n, hop = int(CHUNK_S * CLAP_SR), int(HOP_S * CLAP_SR)
+            # кліпи FMA часто на долі секунди коротші за 30 с — доповнюємо тишею, щоб не втратити останній шматок
+            y = np.pad(y, (0, (-len(y)) % hop if (-len(y)) % hop <= CLAP_SR // 2 else 0))
             starts = np.arange(0, len(y) - n + 1, hop)
             chunks = np.stack([y[s : s + n] for s in starts])
             y22 = librosa.resample(y, orig_sr=CLAP_SR, target_sr=FEAT_SR)
@@ -66,6 +71,7 @@ def main():
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--batch-size", type=int, default=20)
+    ap.add_argument("--model", default=CLAP_NAME)
     args = ap.parse_args()
 
     import torch
@@ -73,11 +79,11 @@ def main():
 
     tracks = balanced_subset(load_small_metadata(), args.subset_size, args.seed)
     device = "mps" if torch.backends.mps.is_available() else "cpu"
-    print(f"треків: {len(tracks)}, пристрій: {device}, модель: {CLAP_NAME}")
+    print(f"треків: {len(tracks)}, пристрій: {device}, модель: {args.model}")
 
     t0 = time.time()
-    model = ClapModel.from_pretrained(CLAP_NAME).eval().to(device)
-    fe = ClapProcessor.from_pretrained(CLAP_NAME).feature_extractor
+    model = ClapModel.from_pretrained(args.model).eval().to(device)
+    fe = ClapProcessor.from_pretrained(args.model).feature_extractor
     print(f"модель завантажено за {time.time() - t0:.1f} с")
 
     def embed(batch: list[np.ndarray]) -> np.ndarray:

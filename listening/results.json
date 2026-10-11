@@ -1,0 +1,562 @@
+[
+ {
+  "query": 107125,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 133020,
+  "score": 0.7403
+ },
+ {
+  "query": 107125,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 61012,
+  "score": 0.6829
+ },
+ {
+  "query": 107125,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 17644,
+  "score": 0.6702
+ },
+ {
+  "query": 107125,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 64625,
+  "score": 0.6676
+ },
+ {
+  "query": 107125,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 121998,
+  "score": 0.6618
+ },
+ {
+  "query": 107125,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 73125,
+  "score": 0.726
+ },
+ {
+  "query": 107125,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 123969,
+  "score": 0.6867
+ },
+ {
+  "query": 107125,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 132122,
+  "score": 0.6729
+ },
+ {
+  "query": 107125,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 150079,
+  "score": 0.6701
+ },
+ {
+  "query": 107125,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 64537,
+  "score": 0.6644
+ },
+ {
+  "query": 86720,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 86730,
+  "score": 0.7819
+ },
+ {
+  "query": 86720,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 116525,
+  "score": 0.7289
+ },
+ {
+  "query": 86720,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 132677,
+  "score": 0.7285
+ },
+ {
+  "query": 86720,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 132675,
+  "score": 0.7226
+ },
+ {
+  "query": 86720,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 111226,
+  "score": 0.7176
+ },
+ {
+  "query": 86720,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 86730,
+  "score": 0.6197
+ },
+ {
+  "query": 86720,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 136706,
+  "score": 0.5858
+ },
+ {
+  "query": 86720,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 126187,
+  "score": 0.5843
+ },
+ {
+  "query": 86720,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 122625,
+  "score": 0.575
+ },
+ {
+  "query": 86720,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 127211,
+  "score": 0.5723
+ },
+ {
+  "query": 104357,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 3904,
+  "score": 0.8439
+ },
+ {
+  "query": 104357,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 52508,
+  "score": 0.8255
+ },
+ {
+  "query": 104357,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 3905,
+  "score": 0.8126
+ },
+ {
+  "query": 104357,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 113950,
+  "score": 0.7891
+ },
+ {
+  "query": 104357,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 3913,
+  "score": 0.786
+ },
+ {
+  "query": 104357,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 38785,
+  "score": 0.6444
+ },
+ {
+  "query": 104357,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 115817,
+  "score": 0.6282
+ },
+ {
+  "query": 104357,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 38779,
+  "score": 0.6066
+ },
+ {
+  "query": 104357,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 112977,
+  "score": 0.6065
+ },
+ {
+  "query": 104357,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 52955,
+  "score": 0.6061
+ },
+ {
+  "query": 100479,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 110768,
+  "score": 0.8348
+ },
+ {
+  "query": 100479,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 99095,
+  "score": 0.8298
+ },
+ {
+  "query": 100479,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 119994,
+  "score": 0.8149
+ },
+ {
+  "query": 100479,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 13201,
+  "score": 0.7736
+ },
+ {
+  "query": 100479,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 130710,
+  "score": 0.7638
+ },
+ {
+  "query": 100479,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 131795,
+  "score": 0.7508
+ },
+ {
+  "query": 100479,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 70654,
+  "score": 0.7239
+ },
+ {
+  "query": 100479,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 71157,
+  "score": 0.7018
+ },
+ {
+  "query": 100479,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 90993,
+  "score": 0.6901
+ },
+ {
+  "query": 100479,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 42851,
+  "score": 0.6765
+ },
+ {
+  "query": 125821,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 114231,
+  "score": 0.8651
+ },
+ {
+  "query": 125821,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 116466,
+  "score": 0.8558
+ },
+ {
+  "query": 125821,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 126718,
+  "score": 0.8404
+ },
+ {
+  "query": 125821,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 114232,
+  "score": 0.8227
+ },
+ {
+  "query": 125821,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 56801,
+  "score": 0.7996
+ },
+ {
+  "query": 125821,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 126233,
+  "score": 0.7067
+ },
+ {
+  "query": 125821,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 114232,
+  "score": 0.6863
+ },
+ {
+  "query": 125821,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 138020,
+  "score": 0.6185
+ },
+ {
+  "query": 125821,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 96699,
+  "score": 0.6181
+ },
+ {
+  "query": 125821,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 140873,
+  "score": 0.6169
+ },
+ {
+  "query": 64590,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 33070,
+  "score": 0.8305
+ },
+ {
+  "query": 64590,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 27612,
+  "score": 0.8181
+ },
+ {
+  "query": 64590,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 142535,
+  "score": 0.8068
+ },
+ {
+  "query": 64590,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 142534,
+  "score": 0.7941
+ },
+ {
+  "query": 64590,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 18034,
+  "score": 0.7911
+ },
+ {
+  "query": 64590,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 80696,
+  "score": 0.7131
+ },
+ {
+  "query": 64590,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 1684,
+  "score": 0.7085
+ },
+ {
+  "query": 64590,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 91183,
+  "score": 0.6925
+ },
+ {
+  "query": 64590,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 14318,
+  "score": 0.6898
+ },
+ {
+  "query": 64590,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 111186,
+  "score": 0.6896
+ },
+ {
+  "query": 107047,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 113334,
+  "score": 0.748
+ },
+ {
+  "query": 107047,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 149842,
+  "score": 0.7358
+ },
+ {
+  "query": 107047,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 57178,
+  "score": 0.7276
+ },
+ {
+  "query": 107047,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 107534,
+  "score": 0.7229
+ },
+ {
+  "query": 107047,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 107129,
+  "score": 0.7108
+ },
+ {
+  "query": 107047,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 60478,
+  "score": 0.8918
+ },
+ {
+  "query": 107047,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 38894,
+  "score": 0.8849
+ },
+ {
+  "query": 107047,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 56694,
+  "score": 0.8832
+ },
+ {
+  "query": 107047,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 38912,
+  "score": 0.8783
+ },
+ {
+  "query": 107047,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 91082,
+  "score": 0.8783
+ },
+ {
+  "query": 109468,
+  "method": "clap",
+  "rank": 1,
+  "track_id": 127911,
+  "score": 0.8091
+ },
+ {
+  "query": 109468,
+  "method": "clap",
+  "rank": 2,
+  "track_id": 138063,
+  "score": 0.7998
+ },
+ {
+  "query": 109468,
+  "method": "clap",
+  "rank": 3,
+  "track_id": 127908,
+  "score": 0.7851
+ },
+ {
+  "query": 109468,
+  "method": "clap",
+  "rank": 4,
+  "track_id": 138039,
+  "score": 0.7778
+ },
+ {
+  "query": 109468,
+  "method": "clap",
+  "rank": 5,
+  "track_id": 127181,
+  "score": 0.7654
+ },
+ {
+  "query": 109468,
+  "method": "baseline",
+  "rank": 1,
+  "track_id": 111658,
+  "score": 0.7622
+ },
+ {
+  "query": 109468,
+  "method": "baseline",
+  "rank": 2,
+  "track_id": 28479,
+  "score": 0.711
+ },
+ {
+  "query": 109468,
+  "method": "baseline",
+  "rank": 3,
+  "track_id": 117628,
+  "score": 0.7102
+ },
+ {
+  "query": 109468,
+  "method": "baseline",
+  "rank": 4,
+  "track_id": 28692,
+  "score": 0.7042
+ },
+ {
+  "query": 109468,
+  "method": "baseline",
+  "rank": 5,
+  "track_id": 56559,
+  "score": 0.7002
+ }
+]
