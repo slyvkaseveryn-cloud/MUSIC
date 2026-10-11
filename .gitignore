@@ -1,0 +1,18 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+# audio
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+listening/audio/
+# caches
+*.npy
+*.npz
+.cache/
